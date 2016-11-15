@@ -1,0 +1,76 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <valDef>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <type class="matrixType">
+            <elemType class="intType"/>
+            <xDim>3</xDim>
+            <yDim>3</yDim>
+          </type>
+          <name>A</name>
+          <value class="subMatrix">
+            <srcLine>2</srcLine>
+            <srcColumn>27</srcColumn>
+            <struct class="idRef">
+              <srcLine>2</srcLine>
+              <srcColumn>27</srcColumn>
+              <idName>B</idName>
+            </struct>
+            <XBase class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>32</srcColumn>
+              <val>2</val>
+            </XBase>
+            <XStart class="unaryMinus">
+              <srcLine>2</srcLine>
+              <srcColumn>29</srcColumn>
+              <op class="intVal">
+                <srcLine>2</srcLine>
+                <srcColumn>30</srcColumn>
+                <val>1</val>
+              </op>
+            </XStart>
+            <XEnd class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>34</srcColumn>
+              <val>1</val>
+            </XEnd>
+            <YBase class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>40</srcColumn>
+              <val>4</val>
+            </YBase>
+            <YStart class="unaryMinus">
+              <srcLine>2</srcLine>
+              <srcColumn>37</srcColumn>
+              <op class="intVal">
+                <srcLine>2</srcLine>
+                <srcColumn>38</srcColumn>
+                <val>1</val>
+              </op>
+            </YStart>
+            <YEnd class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>42</srcColumn>
+              <val>1</val>
+            </YEnd>
+          </value>
+        </valDef>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>subMatrix1.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

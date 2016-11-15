@@ -1,0 +1,6 @@
+function void main(){
+	val int foo = a -+ 45;
+}
+
+
+

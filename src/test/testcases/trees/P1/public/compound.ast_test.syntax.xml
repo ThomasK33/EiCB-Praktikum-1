@@ -1,0 +1,46 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <compoundStmt>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <statements>
+            <valDef>
+              <srcLine>3</srcLine>
+              <srcColumn>2</srcColumn>
+              <type class="floatType"/>
+              <name>pi</name>
+              <value class="floatVal">
+                <srcLine>3</srcLine>
+                <srcColumn>17</srcColumn>
+                <val>3.142</val>
+              </value>
+            </valDef>
+            <callStmt>
+              <srcLine>4</srcLine>
+              <srcColumn>2</srcColumn>
+              <call>
+                <srcLine>4</srcLine>
+                <srcColumn>2</srcColumn>
+                <name>printLine</name>
+                <actualParameters/>
+              </call>
+            </callStmt>
+          </statements>
+        </compoundStmt>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>compound.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

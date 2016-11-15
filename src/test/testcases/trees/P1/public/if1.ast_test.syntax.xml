@@ -1,0 +1,50 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <if>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <test class="idRef">
+            <srcLine>2</srcLine>
+            <srcColumn>4</srcColumn>
+            <idName>a</idName>
+          </test>
+          <thenStatement class="compoundStmt">
+            <srcLine>2</srcLine>
+            <srcColumn>6</srcColumn>
+            <statements>
+              <callStmt>
+                <srcLine>3</srcLine>
+                <srcColumn>2</srcColumn>
+                <call>
+                  <srcLine>3</srcLine>
+                  <srcColumn>2</srcColumn>
+                  <name>printString</name>
+                  <actualParameters>
+                    <stringVal>
+                      <srcLine>3</srcLine>
+                      <srcColumn>14</srcColumn>
+                      <val>&quot;foo&quot;</val>
+                    </stringVal>
+                  </actualParameters>
+                </call>
+              </callStmt>
+            </statements>
+          </thenStatement>
+        </if>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>if1.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

@@ -1,0 +1,25 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <varDecl>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <type class="intType"/>
+          <name>foo</name>
+        </varDecl>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>var_declaration1.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

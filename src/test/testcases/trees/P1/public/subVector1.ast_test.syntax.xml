@@ -1,0 +1,56 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <valDef>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <type class="vectorType">
+            <elemType class="intType"/>
+            <dim>3</dim>
+          </type>
+          <name>a</name>
+          <value class="subVector">
+            <srcLine>2</srcLine>
+            <srcColumn>24</srcColumn>
+            <struct class="idRef">
+              <srcLine>2</srcLine>
+              <srcColumn>24</srcColumn>
+              <idName>b</idName>
+            </struct>
+            <base class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>29</srcColumn>
+              <val>17</val>
+            </base>
+            <start class="unaryMinus">
+              <srcLine>2</srcLine>
+              <srcColumn>26</srcColumn>
+              <op class="intVal">
+                <srcLine>2</srcLine>
+                <srcColumn>27</srcColumn>
+                <val>1</val>
+              </op>
+            </start>
+            <end class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>32</srcColumn>
+              <val>1</val>
+            </end>
+          </value>
+        </valDef>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>subVector1.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

@@ -1,0 +1,39 @@
+<mavlc.test__wrapper.ErrorTestWrapper>
+  <stackTrace>
+    <trace>mavlc.Main.main(Main.java:179)</trace>
+  </stackTrace>
+  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+    <c class="list"/>
+    <list reference="../c"/>
+  </suppressedExceptions>
+  <error class="mavlc.error_reporting.SyntaxError">
+    <stackTrace>
+      <trace>mavlc.parser.recursive_descent.Parser.accept(Parser.java:67)</trace>
+      <trace>mavlc.parser.recursive_descent.Parser.parseIntLit(Parser.java:574)</trace>
+      <trace>mavlc.parser.recursive_descent.Parser.parseType(Parser.java:142)</trace>
+      <trace>mavlc.parser.recursive_descent.Parser.parseValueDef(Parser.java:180)</trace>
+      <trace>mavlc.parser.recursive_descent.Parser.parseStatement(Parser.java:158)</trace>
+      <trace>mavlc.parser.recursive_descent.Parser.parseFunction(Parser.java:101)</trace>
+      <trace>mavlc.parser.recursive_descent.Parser.parse(Parser.java:57)</trace>
+      <trace>mavlc.Main.main(Main.java:174)</trace>
+    </stackTrace>
+    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../../suppressedExceptions"/>
+    <message>Syntax error in line 2, column 17
+Got token &lt;ID a&gt; but expected INTLIT</message>
+    <line>2</line>
+    <column>17</column>
+    <actual>
+      <type>ID</type>
+      <spelling>a</spelling>
+      <line>2</line>
+      <column>17</column>
+    </actual>
+    <expected class="java.util.Arrays$ArrayList">
+      <a class="mavlc.parser.recursive_descent.Token$TokenType-array">
+        <mavlc.parser.recursive__descent.Token_-TokenType>INTLIT</mavlc.parser.recursive__descent.Token_-TokenType>
+      </a>
+    </expected>
+  </error>
+  <onlySyntax>true</onlySyntax>
+  <testFile>publicError1.mavl</testFile>
+</mavlc.test__wrapper.ErrorTestWrapper>

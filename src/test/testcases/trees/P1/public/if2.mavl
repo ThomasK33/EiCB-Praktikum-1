@@ -1,0 +1,8 @@
+function void main(){
+	if(a & b){
+		printString("foo");
+	}
+	else{
+		printString("baz");
+	}
+}

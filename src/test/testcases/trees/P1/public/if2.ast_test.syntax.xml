@@ -1,0 +1,81 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <if>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <test class="logicAnd">
+            <srcLine>2</srcLine>
+            <srcColumn>4</srcColumn>
+            <leftOp class="idRef">
+              <srcLine>2</srcLine>
+              <srcColumn>4</srcColumn>
+              <idName>a</idName>
+            </leftOp>
+            <rightOp class="idRef">
+              <srcLine>2</srcLine>
+              <srcColumn>8</srcColumn>
+              <idName>b</idName>
+            </rightOp>
+          </test>
+          <thenStatement class="compoundStmt">
+            <srcLine>2</srcLine>
+            <srcColumn>10</srcColumn>
+            <statements>
+              <callStmt>
+                <srcLine>3</srcLine>
+                <srcColumn>2</srcColumn>
+                <call>
+                  <srcLine>3</srcLine>
+                  <srcColumn>2</srcColumn>
+                  <name>printString</name>
+                  <actualParameters>
+                    <stringVal>
+                      <srcLine>3</srcLine>
+                      <srcColumn>14</srcColumn>
+                      <val>&quot;foo&quot;</val>
+                    </stringVal>
+                  </actualParameters>
+                </call>
+              </callStmt>
+            </statements>
+          </thenStatement>
+          <elseStatement class="compoundStmt">
+            <srcLine>5</srcLine>
+            <srcColumn>5</srcColumn>
+            <statements>
+              <callStmt>
+                <srcLine>6</srcLine>
+                <srcColumn>2</srcColumn>
+                <call>
+                  <srcLine>6</srcLine>
+                  <srcColumn>2</srcColumn>
+                  <name>printString</name>
+                  <actualParameters>
+                    <stringVal>
+                      <srcLine>6</srcLine>
+                      <srcColumn>14</srcColumn>
+                      <val>&quot;baz&quot;</val>
+                    </stringVal>
+                  </actualParameters>
+                </call>
+              </callStmt>
+            </statements>
+          </elseStatement>
+        </if>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>if2.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

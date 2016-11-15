@@ -1,0 +1,109 @@
+<mavlc.test__wrapper.ASTTestWrapper>
+  <srcLine>-1</srcLine>
+  <srcColumn>-1</srcColumn>
+  <AST>
+    <srcLine>1</srcLine>
+    <srcColumn>0</srcColumn>
+    <function>
+      <srcLine>1</srcLine>
+      <srcColumn>0</srcColumn>
+      <name>main</name>
+      <returnType class="voidType"/>
+      <parameters/>
+      <functionBody>
+        <forLoop>
+          <srcLine>2</srcLine>
+          <srcColumn>1</srcColumn>
+          <initVarName>i</initVarName>
+          <initValue class="intVal">
+            <srcLine>2</srcLine>
+            <srcColumn>7</srcColumn>
+            <val>0</val>
+          </initValue>
+          <check class="compare">
+            <srcLine>2</srcLine>
+            <srcColumn>10</srcColumn>
+            <leftOp class="idRef">
+              <srcLine>2</srcLine>
+              <srcColumn>10</srcColumn>
+              <idName>i</idName>
+            </leftOp>
+            <rightOp class="intVal">
+              <srcLine>2</srcLine>
+              <srcColumn>12</srcColumn>
+              <val>5</val>
+            </rightOp>
+            <comparator>LESS</comparator>
+          </check>
+          <incrVarName>i</incrVarName>
+          <incrExpr class="subtraction">
+            <srcLine>2</srcLine>
+            <srcColumn>17</srcColumn>
+            <leftOp class="addition">
+              <srcLine>2</srcLine>
+              <srcColumn>17</srcColumn>
+              <leftOp class="idRef">
+                <srcLine>2</srcLine>
+                <srcColumn>17</srcColumn>
+                <idName>i</idName>
+              </leftOp>
+              <rightOp class="intVal">
+                <srcLine>2</srcLine>
+                <srcColumn>19</srcColumn>
+                <val>1</val>
+              </rightOp>
+            </leftOp>
+            <rightOp class="idRef">
+              <srcLine>2</srcLine>
+              <srcColumn>21</srcColumn>
+              <idName>k</idName>
+            </rightOp>
+          </incrExpr>
+          <body class="compoundStmt">
+            <srcLine>2</srcLine>
+            <srcColumn>23</srcColumn>
+            <statements>
+              <callStmt>
+                <srcLine>3</srcLine>
+                <srcColumn>2</srcColumn>
+                <call>
+                  <srcLine>3</srcLine>
+                  <srcColumn>2</srcColumn>
+                  <name>printInt</name>
+                  <actualParameters>
+                    <multiplication>
+                      <srcLine>3</srcLine>
+                      <srcColumn>11</srcColumn>
+                      <leftOp class="idRef">
+                        <srcLine>3</srcLine>
+                        <srcColumn>11</srcColumn>
+                        <idName>i</idName>
+                      </leftOp>
+                      <rightOp class="idRef">
+                        <srcLine>3</srcLine>
+                        <srcColumn>13</srcColumn>
+                        <idName>k</idName>
+                      </rightOp>
+                    </multiplication>
+                  </actualParameters>
+                </call>
+              </callStmt>
+              <callStmt>
+                <srcLine>4</srcLine>
+                <srcColumn>2</srcColumn>
+                <call>
+                  <srcLine>4</srcLine>
+                  <srcColumn>2</srcColumn>
+                  <name>printLine</name>
+                  <actualParameters/>
+                </call>
+              </callStmt>
+            </statements>
+          </body>
+        </forLoop>
+      </functionBody>
+    </function>
+  </AST>
+  <testFile>forLoop2.mavl</testFile>
+  <onlySyntax>true</onlySyntax>
+</mavlc.test__wrapper.ASTTestWrapper>

@@ -1,0 +1,6 @@
+function void main(){
+	if(a){
+		printString("foo");
+	}
+}
+
